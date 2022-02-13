@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughts on Sprint 1"
+title:  "Sprint 1 Review"
 date:   2022-02-12 15:09:24 -0500
 categories: cit280 reflection
 ---
