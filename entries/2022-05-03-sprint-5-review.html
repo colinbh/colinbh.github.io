@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            colinbh.github.io - Sprint 5 Review
+        </title>
+        <link href="../css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="../index.html">
+                    colinbh.github.io
+                </a>
+                <span>
+                    - Sprint 5 Review
+                </span>
+            </h1>
+        </header>
+        <div class="line"></div>
+        <article>
+            <section>
+                <h2>
+                    Documentation
+                </h2>
+                <p>
+                    During the sprint, the team's main accomplishment was deploying the web app. 
+                    Before this, we improved mobile responsiveness and added important text, like for refunds, resizes, and so on. 
+                    After deployment, we fixed bugs that we did not expect to happen in the transition from our local hosts. 
+                    To solve them, we went through every page to see if features would break. 
+                    Once these were fixed, we presented the web app to the department advisory board.
+                </p>
+                <p>
+                    My focus for the sprint was to finish the shopping cart, the landing page, and to refactor my code. 
+                    The shopping cart used query strings to add items, which meant that if the user reloaded the page, another item would be unintentionally added. 
+                    The issue was fixed by using a RedirectToAction, so that when the cart view was called with a query, it would add the data to the user's cookies, then redirect to a plain cart view without the string. 
+                    The landing page's jewelry carousels were updated by switching to Bootstrap carousels from my custom Javascript slider. 
+                    Responsiveness was a problem after the switch, as the number of cards displayed would not change at different device sizes. 
+                    To mitigate issues on mobile devices, I changed the carousel to display the jewelry cards in a column instead of a row on smaller screens. 
+                    Some of the code for my pages was refactored to make it easier to edit repeated code. 
+                    Most of the for loops were replaced with foreach loops to help avoid issues with index out-of-bounds errors, too.
+                </p>
+            </section>
+            <section>
+                <h2>
+                    Reflection
+                </h2>
+                <p>
+                    The sprint went smoothly for the most part. 
+                    Deployment was easy, and none of the bugs we encountered from it were challenging to handle. 
+                    Transitioning from my custom Javascript jewelry slider to the Bootstrap carousel was also simple for the most part, and resulted in cleaner code. 
+                    There were no issues during this sprint of the project either.
+                </p>
+            </section>
+        </article>
+        <div class="line"></div>
+        <footer>
+            <p>
+                Sprint blog by Colin H. for the course CIT 280 
+                at Northwestern Michigan College.
+            </p>
+        </footer>
+    </body>
+</html>
